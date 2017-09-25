@@ -3,19 +3,22 @@ KurdCoin development tree
 
 KurdCoin is a PoS-based cryptocurrency.
 
-PoW: scrypt
-PoS: PoS 2.0
-Max coins: ~ 1.220 billion
+PoW: scrypt ,
+PoS: PoS 2.0 ,
+Max coins: ~ 1.220 billions ,
 Reserved coins: ~ 200 milions (for 5 years & will not be used for staking)
 
 Rewrds:
+
 POS % 21.3 / Annual
+
 POW:
-Block 0-9= 0 coins
-Block 10-31 = 10000000 coins
-Block 32-999 = 10 coins
-Block 1000-3999 = 29.5 coins
-Block 4000-5999 = 21.3 coins
+
+Block 0-9= 0 coins ,
+Block 10-31 = 10000000 coins ,
+Block 32-999 = 10 coins ,
+Block 1000-3999 = 29.5 coins ,
+Block 4000-5999 = 21.3 coins ,
 Block 6000-7999 = 10 coins
 
 
