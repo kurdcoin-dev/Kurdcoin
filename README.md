@@ -1,5 +1,5 @@
 
-KurdCoin development tree
+KurdCoin development tree (***Attention source yet not compileable***)
 
 KurdCoin is a PoS-based cryptocurrency.
 
