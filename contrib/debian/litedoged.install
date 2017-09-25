@@ -1,0 +1,2 @@
+debian/bin/kurdcoind usr/bin
+src/kurdcoind usr/lib/kurdcoin

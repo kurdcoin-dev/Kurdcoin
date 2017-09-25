@@ -1,0 +1,9 @@
+Building KurdCoin
+
+See doc/readme-qt.rst for instructions on building KurdCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of KurdCoin.
+
+See doc/build-*.txt for instructions on building kurdcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of KurdCoin.

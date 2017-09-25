@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=KurdCoin
+Comment=KurdCoin P2P Cryptocurrency
+Comment[fr]=KurdCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=KurdCoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/kurdcoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/kurdcoin;
+Categories=Office;
