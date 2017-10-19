@@ -9,7 +9,7 @@ Max coins: ~ 1.220 billion
 Reserved coins: ~ 200 milions (for 5 years & will not be used for staking)
 
 Rewrds:
-POS % 21.3 / Annual
+POS % 213 / Annual
 POW:
 Block 0-9= 0 coins
 Block 10-31 = 10000000 coins
