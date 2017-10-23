@@ -3,10 +3,10 @@ KurdCoin development tree
 
 KurdCoin is a PoS-based cryptocurrency.
 
-PoW: scrypt
+PoW: scrypt ended 
 PoS: PoS 2.0
 Max coins: ~ 1.220 billion
-Reserved coins: ~ 200 milions (for 5 years & will not be used for staking)
+Reserved coins: ~ 200 milions (%50 will be reserved for 3 years & will not be used for staking)
 
 Rewrds:
 POS % 213 / Annual
