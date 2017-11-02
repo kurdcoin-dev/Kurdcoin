@@ -270,10 +270,6 @@ void BitcoinGUI::createActions()
     facebookAction = new QAction(QIcon(":/icons/facebook"), tr("&Facebook"), this);
     facebookAction->setToolTip(tr("Visit us on Facebook"));
 
-    chatPageAction = new QAction(QIcon(":/icons/irc"),tr("&KurdCoin IRC"), this);
-    chatPageAction->setToolTip((tr("Join KurdCoin IRC Channel")));
-
-
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(gotoOverviewPage()));
     connect(receiveCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
@@ -287,7 +283,6 @@ void BitcoinGUI::createActions()
     connect(blockExplorerAction, SIGNAL(triggered()), this, SLOT(openBlockExplorer()));
     connect(websiteAction, SIGNAL(triggered()), this, SLOT(openWebsite()));
     connect(facebookAction, SIGNAL(triggered()), this, SLOT(openFacebook()));
-    connect(chatPageAction, SIGNAL(triggered()), this, SLOT(gotoChatPage()));
 
     quitAction = new QAction(tr("E&xit"), this);
     quitAction->setToolTip(tr("Quit application"));
@@ -395,7 +390,6 @@ void BitcoinGUI::createToolBars()
     // toolbar->addAction(blockExplorerAction);
     toolbar->addAction(websiteAction);
     // toolbar->addAction(facebookAction);
-    // toolbar->addAction(chatPageAction);
 
     toolbar->addWidget(makeToolBarSpacer());
 
@@ -845,11 +839,6 @@ void BitcoinGUI::openWebsite()
 void BitcoinGUI::openFacebook()
 {
     QDesktopServices::openUrl(QUrl("http://www.facebook.com/kurdcoin"));
-}
-
-void BitcoinGUI::gotoChatPage()
-{
-    QDesktopServices::openUrl(QUrl("https://kiwiirc.com/client/irc.kiwiirc.com/#kurdcoin"));
 }
 
 void BitcoinGUI::gotoSignMessageTab(QString addr)
